@@ -22,7 +22,7 @@ namespace dpudak.com.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "İletisim Sayfası";
 
             return View();
         }
