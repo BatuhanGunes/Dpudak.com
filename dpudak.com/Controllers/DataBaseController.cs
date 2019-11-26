@@ -6,19 +6,17 @@ using System.Web.Mvc;
 
 namespace dpudak.com.Controllers
 {
-    public class HomeController : Controller
+    public class DataBaseController : Controller
     {
-        public ActionResult Index()
+        public ActionResult LectureNotes()
         {
             return View();
         }
-
-        public ActionResult Contact()
+        public ActionResult OurInventory()
         {
             return View();
         }
-
-        public ActionResult Gallery()
+        public ActionResult WhatIsMountaineering()
         {
             return View();
         }

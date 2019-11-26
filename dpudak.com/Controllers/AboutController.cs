@@ -6,19 +6,18 @@ using System.Web.Mvc;
 
 namespace dpudak.com.Controllers
 {
-    public class HomeController : Controller
+    public class AboutController : Controller
     {
-        public ActionResult Index()
+        // GET: About
+        public ActionResult About()
         {
             return View();
         }
-
-        public ActionResult Contact()
+        public ActionResult Boards()
         {
             return View();
         }
-
-        public ActionResult Gallery()
+        public ActionResult Rules()
         {
             return View();
         }
