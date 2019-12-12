@@ -20,5 +20,12 @@ namespace dpudak.com.Controllers
         {
             return View();
         }
+        public ActionResult DownloadFile()
+        {
+            string path = AppDomain.CurrentDomain.BaseDirectory + "css/";
+            byte[] fileBytes = System.IO.File.ReadAllBytes(path + "modern-business.css");
+            string fileName = "modern-business.css";
+            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, fileName);
+        }
     }
 }
