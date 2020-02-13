@@ -17,6 +17,10 @@ namespace dpudak.com.Controllers
         {
             return View();
         }
+        public ActionResult MountainReports()
+        {
+            return View();
+        }
         public ActionResult Meetings()
         {
             return View();

@@ -136,16 +136,29 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="css\modern-business.css" />
-    <Content Include="favicon.ico" />
+    <Content Include="faviconDpudak.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\DpudakLogo.png" />
+    <Content Include="images\Views\Activities\TrainingCamps\Karakayalar3.jpg" />
+    <Content Include="images\Views\Activities\TrainingCamps\Karakayalar4.jpg" />
+    <Content Include="images\Views\Activities\TrainingCamps\MuratDagi.jpg" />
+    <Content Include="images\Views\Activities\TrainingCamps\Nigde.jpg" />
+    <Content Include="images\Views\Activities\TrainingCamps\TemelKampcilik2.jpg" />
+    <Content Include="images\Views\Activities\TrainingCamps\TemelYaz.jpg" />
+    <Content Include="images\Views\Activities\TrainingCamps\Uludag.jpg" />
+    <Content Include="images\Views\Contact\socialNetwork1.png" />
+    <Content Include="images\Views\Contact\socialNetwork2.png" />
+    <Content Include="images\Views\About\About\ClimbingWall.jpg" />
     <Content Include="images\Views\About\Boards\AysenOzturk.jpg" />
     <Content Include="images\Views\About\Boards\BatuhanGunes.jpg" />
     <Content Include="images\Views\About\Boards\DogukanTeke.jpg" />
     <Content Include="images\Views\About\Boards\FurkanAkar.jpg" />
     <Content Include="images\Views\About\Boards\LeventBurma.jpg" />
     <Content Include="images\Views\About\Boards\NebiSenkartal.jpg" />
-    <Content Include="images\Views\About\Boards\PınarTusun.jpg" />
+    <Content Include="images\Views\About\Boards\PınarTusun2.jpg" />
+    <Content Include="images\Views\Contact\socialNetwork5.png" />
+    <Content Include="images\Views\Contact\socialNetwork6.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -186,6 +199,8 @@
     <Content Include="Views\Database\WhatIsMountaineering.cshtml" />
     <Content Include="Views\Database\LectureNotes.cshtml" />
     <Content Include="Views\Database\OurInventory.cshtml" />
+    <Content Include="Views\Database\EmreKuruoglu.cshtml" />
+    <Content Include="Views\Activities\MountainReports.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
