@@ -21,12 +21,6 @@ namespace dpudak.com.Controllers
             return View();
         }
 
-        public ActionResult EmreKuruoglu()
-        {
-            return View();
-        }
-
-
         public ActionResult DownloadFile()
         {
             string path = AppDomain.CurrentDomain.BaseDirectory + "css/";
